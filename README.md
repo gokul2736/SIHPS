@@ -1,5 +1,5 @@
 # Smart India Hackathon Workshop
-# Date: 27-11-2024
+# Date: 28-11-2024
 ## Register Number: 24000042
 ## Name: M Gokul
 ## Problem Title
@@ -11,21 +11,35 @@ Background: Alumni associations play a pivotal role in fostering lifelong connec
 Government of Gujarat
 
 ## Ideas
+The following points/options are suggested features that can be incorporated into the website to enhance user engagement and functionality in the project
+
 1. Alumni Registration: Alumni can register and update profiles with key details such as graduation year, field of study, and location.
 2. Donation Portal: A secure mechanism allowing alumni to contribute to institutional development and student scholarships.
-Networking Hub: Connect with alumni based on common interests, professions, and geographic locations to foster collaboration and mentorship.
-Job Portal: A dedicated space for alumni to find career opportunities, post job openings, and connect with potential employers.
-Alumni Directory: A searchable directory to find alumni by graduation year, field of study, location, etc.
-Success Story Tracking: Showcase notable alumni achievements, encouraging current students and alumni to stay connected with their alma mater.
-Events and Reunions: Organize and manage alumni events and reunions to enhance engagement and strengthen bonds.
-Newsroom: Keep the community informed with the latest institutional and alumni new and also live feed of institutional updates, success stories, and major achievements of alumni.
-Fundraising Projects: A platform for alumni to support specific institutional projects through donations.
-Photo Gallery & Events Gallery: Showcase memories from events, reunions, and alumni activities.
-Top Cities Where Alumni Live: Display a heatmap of alumni concentrations across various cities to help foster local connections.
-My Batch: A dedicated space for alumni of the same batch to reconnect and share memories.
-Needs/Initiatives: Highlight institutional needs and initiatives that alumni can contribute towards.
-Connect and Contribute: Sections designed to encourage alumni to not only connect for personal or professional reasons but also to contribute to the community’s growth.
-My Batch: A dedicated space for alumni to connect with others from the same batch, reminisce about their time in college, and collaborate on initiatives.
+3. Networking Hub: Connect with alumni based on common interests, professions, and geographic locations to foster collaboration and mentorship.
+4. Job Portal: A dedicated space for alumni to find career opportunities, post job openings, and connect with potential employers.
+5. Alumni Directory: A searchable directory to find alumni by graduation year, field of study, location, etc.
+5. Success Story Tracking: Showcase notable alumni achievements, encouraging current students and alumni to stay connected with their alma mater.
+6. Events and Reunions: Organize and manage alumni events and reunions to enhance engagement and strengthen bonds.
+7. Newsroom: Keep the community informed with the latest institutional and alumni new and also live feed of institutional updates, success stories, and major achievements of alumni.
+8. Fundraising Projects: A platform for alumni to support specific institutional projects through donations.
+9. Photo Gallery & Events Gallery: Showcase memories from events, reunions, and alumni activities.
+10. My Batch: A dedicated space for alumni of the same batch to reconnect and share memories.
+11. Needs/Initiatives: Highlight institutional needs and initiatives that alumni can contribute towards.
+12. Connect and Contribute: Sections designed to encourage alumni to not only connect for personal or professional reasons but also to contribute to the community’s growth.
+13. My Batch: A dedicated space for alumni to connect with others from the same batch, reminisce about their time in college, and collaborate on initiatives.
+
+## places to be focused
+1. Batch-Specific Portals
+Create exclusive sections for each batch to share memories, updates, and photos, encouraging engagement and easier reunion planning.
+
+2. Achievements Showcase Wall
+Highlight alumni achievements in a dynamic, scrolling format, with a submission feature for alumni to share their milestones.
+
+3. Career Development and Mentorship Portal
+Match alumni mentors with students or junior alumni based on skills and industry, including job boards, resume reviews, and career development resources.
+
+4. Alumni Rewards Program
+Alumni earn points for activities like donations, event registrations, mentoring, and posting updates, which can be redeemed for exclusive merchandise, event discounts, or leaderboard recognition.
  
 ## Expected Outcomes
 - Enhanced alumni engagement.
@@ -36,12 +50,34 @@ My Batch: A dedicated space for alumni to connect with others from the same batc
 
 ## Proposed Solution / Architecture Diagram
 
+![Architecture diagram](https://github.com/user-attachments/assets/9a506ffe-3c8e-4eee-8f92-72cb0aaa83dd)
 
 ## Use Cases
 
 
+
+
 ## Technology Stack
+
+| **Component**               | **Technologies**                                        |
+|-----------------------------|---------------------------------------------------------|
+| **Frontend**                | React.js / Angular / Vue.js                             |
+| **Backend**                 | Node.js (Express.js) / Django (Python) / Ruby on Rails  |
+| **Database**                | MySQL / PostgreSQL / MongoDB                            |
+| **User Authentication**     | Auth0 / Firebase / Passport.js                          |
+| **Notification Service**    | Twilio / SendGrid                                       |
+| **Event Management**        | FullCalendar / Eventbrite API                           |
+| **Payment Gateway**         | Stripe / PayPal                                         |
+| **Hosting & Cloud Services**| AWS / Google Cloud / Microsoft Azure                    |
 
 
 ## Dependencies
 
+| **Dependency**                 | **Duration**  | **Budget**      |
+|--------------------------------|---------------|-----------------|
+| **Mapping Service**            | 10 days       | ₹50,000         |
+| **Data Collection**            | 10 days       | ₹30,000         |
+| **Payment Gateway Integration**| 15 days       | ₹40,000         |
+| **User Authentication System** | 8 days        | ₹20,000         |
+| **Event Management System**    | 12 days       | ₹60,000         |
+| **Hosting & Cloud Services**   | Ongoing       | ₹100,000        |   
