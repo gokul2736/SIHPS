@@ -54,7 +54,7 @@ Alumni earn points for activities like donations, event registrations, mentoring
 
 ## Use Cases
 
-![Uploading Use Case Diagram (6).png…]()
+![Use Case Diagram (6)](https://github.com/user-attachments/assets/319b6d08-3333-4b72-8e74-02826f4d0bcf)
 
 ## Technology Stack
 
